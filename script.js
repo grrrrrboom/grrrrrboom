@@ -5,13 +5,13 @@ const resetButton = document.getElementById("reset");
 const progressBar = document.getElementById("progress");
 const time60Button = document.getElementById("time60");
 const time90Button = document.getElementById("time90");
-const settingsDiv = document.getElementById("settings");
+const startScreen = document.getElementById("start-screen");
+const gameScreen = document.getElementById("game-screen");
 
 const words = [
   "gatto", "cane", "sole", "mare", "vento", "montagna", "strada", "libro",
   "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
-  "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo", "fagiolo", "evangelista", "cerotto", "tavolo", "barca", "merenda", "pizza", 
-  "porta", "metro", "caffè", "scarpa"
+  "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo"
 ];
 
 let currentWords = [];
@@ -118,12 +118,8 @@ time90Button.addEventListener("click", () => startTest(90));
 
 function startTest(selectedTime) {
   timeLimit = selectedTime;
-  settingsDiv.style.display = "none";
-  textElement.style.display = "block";
-  inputElement.style.display = "block";
-  statsElement.style.display = "block";
-  resetButton.style.display = "block";
-  document.getElementById("progress-bar").style.display = "block";
+  startScreen.style.display = "none";
+  gameScreen.style.display = "block";
 
   resetTest();
 }

@@ -1,5 +1,41 @@
-body {
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
+}
+
+/* Schermata iniziale */
+#start-screen {
+  height: 100%;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#settings button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: white;
+  color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+#settings button:hover {
+  background: #2575fc;
+  color: white;
+}
+
+/* Gioco */
+#game-screen {
   padding: 20px;
   max-width: 800px;
   margin: auto;
@@ -10,6 +46,7 @@ body {
   margin-bottom: 20px;
   line-height: 1.6;
   user-select: none;
+  color: black;
 }
 
 #input {
@@ -21,10 +58,11 @@ body {
 #stats {
   margin-top: 15px;
   font-weight: bold;
+  color: black;
 }
 
 .correct {
-  color: rgb(6, 255, 6);
+  color: rgb(4, 255, 4);
 }
 
 .incorrect {
@@ -47,7 +85,7 @@ body {
   transition: width 0.2s;
 }
 
-#reset, #time60, #time90 {
+#reset {
   margin-top: 20px;
   padding: 8px 16px;
   font-size: 16px;
@@ -58,6 +96,6 @@ body {
   cursor: pointer;
 }
 
-#reset:hover, #time60:hover, #time90:hover {
+#reset:hover {
   background: #0056b3;
 }

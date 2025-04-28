@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Typing Test Infinito</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-screen">
+    <h1>Typing Test Infinito</h1>
+    <p>Scegli la durata:</p>
+    <div id="settings">
+      <button id="time60">60 secondi</button>
+      <button id="time90">90 secondi</button>
+    </div>
+  </div>
+
+  <div id="game-screen" style="display:none;">
+    <div id="text"></div>
+    <input type="text" id="input" placeholder="Inizia a scrivere qui..." autocomplete="off" />
+    <div id="progress-bar"><div id="progress"></div></div>
+    <div id="stats">Tempo: 0s | Parole corrette: 0 | WPM: 0</div>
+    <button id="reset">Reset Test</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
