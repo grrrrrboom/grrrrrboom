@@ -24,7 +24,7 @@ body {
 }
 
 .correct {
-  color: green;
+  color: rgb(6, 255, 6);
 }
 
 .incorrect {
