@@ -10,7 +10,8 @@ const settingsDiv = document.getElementById("settings");
 const words = [
   "gatto", "cane", "sole", "mare", "vento", "montagna", "strada", "libro",
   "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
-  "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo", "fagiolo", "evangelista", "cerotto", "tavolo"
+  "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo", "fagiolo", "evangelista", "cerotto", "tavolo", "barca", "merenda", "pizza", 
+  "porta", "metro", "caffè", "scarpa"
 ];
 
 let currentWords = [];
