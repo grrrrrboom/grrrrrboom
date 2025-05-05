@@ -131,3 +131,4 @@ resetButton.addEventListener("click", () => {
 // Avvio
 generateWords(40);
 renderText();
+//hgfgg
