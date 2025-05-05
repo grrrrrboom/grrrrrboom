@@ -30,10 +30,13 @@ function generateWords(n = 30) {
 
 function renderText() {
   textElement.innerHTML = currentWords.map((word, index) => {
-    if (index === currentIndex) {
-      return `<span id="current-word">${word}</span>`;
+    if (index < currentIndex) {
+      return `<span style="color: black;">${word}</span>`;
     }
-    return word;
+    if (index === currentIndex) {
+      return `<span id="current-word" style="font-weight: bold;">${word}</span>`;
+    }
+    return `<span style="color: #888;">${word}</span>`;
   }).join(" ");
   updateProgress();
 }
