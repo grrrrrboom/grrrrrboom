@@ -9,7 +9,7 @@ const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
 
 const words = [
-  "gatto", "cane", "sole", "mare", "vento", "montagna", "strada", "libro",
+  "gatto", "cane", "giulio è stupido", "mare", "vento", "montagna", "strada", "libro",
   "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
   "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo"
 ];
