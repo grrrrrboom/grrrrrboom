@@ -9,9 +9,13 @@ const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
 
 const words = [
-  "gatto", "cane", "giulio è stupido", "giulio è stupido", "giulio è stupido", "montagna", "strada", "libro",
-  "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
+  "gatto", "cane","montagna", "strada", "libro", "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
   "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo"
+  "Amore", "Brava", "Cena", "Danza", "Erano", "Festa", "Gatto", "Hotel", "Isola", "Lento", "Mare", "Notte",
+  "Orso", "Piano", "Quota", "Reale", "Sogno", "Tenda", "Usato", "Vento", "Zaino", "Attore", "Bravo", "Ciclo", "Dente"
+"Arido", "Burro", "Canto", "Dardo", "Esame", "Fiore", "Gioco", "Hotel", "Indio", "Ladro", "Mento", "Nuova", "Oltre", "Pista",
+  "Quasi", "Rango", "Sfera", "Tigre", "Urgen", "Vasto"
+
 ];
 
 let currentWords = [];
