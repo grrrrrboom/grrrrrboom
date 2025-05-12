@@ -17,9 +17,6 @@ const words = [
 "curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
 "albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro"
 
-
-
-
 ]
 
 let currentWords = [];
