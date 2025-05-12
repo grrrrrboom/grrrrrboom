@@ -11,7 +11,7 @@ const gameScreen = document.getElementById("game-screen");
 const words = [
 
 
-"quota", "bravo", "fiore", "campo", "mare", "arido", "isola", "sfera", "burro", "gatto", "ladro", "urgen", "viaggio",
+"quota", "bravo", "fiore", "campo", "mare", "arido", "isola", "sfera", "burro", "gatto", "urgen", "viaggio",
 "indio", "sogno", "dente", "zaino", "pioggia", "libertà", "oltre", "gioco", "piano", "amico", "reale", "nuvola", "strada",
 "bicicletta", "dardo", "tempo", "lento", "esame", "amore", "orso", "telefono", "cane", "montagna", "vento", "pista", "tigre",
 "curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
