@@ -9,13 +9,11 @@ const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
 
 const words = [
-  "gatto", "cane","montagna", "strada", "libro", "computer", "bicicletta", "telefono", "albero", "nuvola", "campo", "viaggio",
-  "città", "pianeta", "scuola", "amico", "notte", "giorno", "pioggia", "tempo"
-  "Amore", "Brava", "Cena", "Danza", "Erano", "Festa", "Gatto", "Hotel", "Isola", "Lento", "Mare", "Notte",
-  "Orso", "Piano", "Quota", "Reale", "Sogno", "Tenda", "Usato", "Vento", "Zaino", "Attore", "Bravo", "Ciclo", "Dente"
-"Arido", "Burro", "Canto", "Dardo", "Esame", "Fiore", "Gioco", "Hotel", "Indio", "Ladro", "Mento", "Nuova", "Oltre", "Pista",
-  "Quasi", "Rango", "Sfera", "Tigre", "Urgen", "Vasto"
-
+  "Quota", "Bravo", "Fiore", "Campo", "Mare", "Arido", "Isola", "Sfera", "Burro", "Gatto", "Ladro", "Urgen",
+  "Viaggio", "Indio", "Sogno", "Dente", "Zaino", "Pioggia", "Libertà", "Oltre", "Gioco", "Piano", "Amico", "Reale",
+  "Nuvola", "Strada", "Bicicletta", "Dardo", "Tempo", "Lento", "Esame", "Amore", "Orso", "Telefono", "Cane", "Montagna",
+  "Vento", "Pista", "Tigre", "Curiosità", "Attore", "Bagliore", "Ciclo", "Città", "Erano", "Hotel", "Mento", "Rango", "Tenda",
+  "Nuova", "Canto", "Notte", "Albero", "Vasto", "Festa", "Danza", "Brava", "Cena", "Giorno", "Libro"
 ];
 
 let currentWords = [];
