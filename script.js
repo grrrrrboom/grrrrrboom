@@ -15,7 +15,8 @@ const words = [
 "indio", "sogno", "dente", "zaino", "pioggia", "libertà", "oltre", "gioco", "piano", "amico", "reale", "nuvola", "strada",
 "bicicletta", "dardo", "tempo", "lento", "esame", "amore", "orso", "telefono", "cane", "montagna", "vento", "pista", "tigre",
 "curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
-"albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro".
+"albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro"
+
 
 
 
