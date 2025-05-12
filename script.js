@@ -9,7 +9,7 @@ const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
 
 const words = [
-  Ecco le parole senza maiuscole:
+
 
 "quota", "bravo", "fiore", "campo", "mare", "arido", "isola", "sfera", "burro", "gatto", "ladro", "urgen", "viaggio",
 "indio", "sogno", "dente", "zaino", "pioggia", "libertà", "oltre", "gioco", "piano", "amico", "reale", "nuvola", "strada",
@@ -17,7 +17,7 @@ const words = [
 "curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
 "albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro".
 
-Vuoi che faccia ulteriori modifiche?
+
 
 ];
 
