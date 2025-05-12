@@ -1,4 +1,4 @@
-/*const textElement = document.getElementById("text");
+const textElement = document.getElementById("text");
 const inputElement = document.getElementById("input");
 const statsElement = document.getElementById("stats");
 const resetButton = document.getElementById("reset");
@@ -20,7 +20,7 @@ const words = [
 
 
 
-];
+]
 
 let currentWords = [];
 let currentIndex = 0;
@@ -143,33 +143,3 @@ resetButton.addEventListener("click", () => {
 generateWords(40);
 renderText();
 //hgfgg
-*/
-const textElement = document.getElementById("text");
-const inputElement = document.getElementById("input");
-const statsElement = document.getElementById("stats");
-const resetButton = document.getElementById("reset");
-const progressBar = document.getElementById("progress");
-const time60Button = document.getElementById("time60");
-const time90Button = document.getElementById("time90");
-const startScreen = document.getElementById("start-screen");
-const gameScreen = document.getElementById("game-screen");
-
-const words = [
-  "quota", "bravo", "fiore", "campo", "mare", "arido", "isola", "sfera", "burro", "gatto", "ladro", "urgen", "viaggio",
-  "indio", "sogno", "dente", "zaino", "pioggia", "libertà", "oltre", "gioco", "piano", "amico", "reale", "nuvola", "strada",
-  "bicicletta", "dardo", "tempo", "lento", "esame", "amore", "orso", "telefono", "cane", "montagna", "vento", "pista", "tigre",
-  "curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
-  "albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro"
-];
-
-let currentWords = [];
-let currentIndex = 0;
-let correctWords = 0;
-let startTime = null;
-let timerInterval = null;
-let timeLimit = 60; // default 60 secondi
-
-function generateWords(n = 30) {
-  for (let i = 0; i < n; i++) {
-    const word = words[Math]()
-
