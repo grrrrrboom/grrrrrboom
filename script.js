@@ -9,11 +9,16 @@ const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
 
 const words = [
-  "Quota", "Bravo", "Fiore", "Campo", "Mare", "Arido", "Isola", "Sfera", "Burro", "Gatto", "Ladro", "Urgen",
-  "Viaggio", "Indio", "Sogno", "Dente", "Zaino", "Pioggia", "Libertà", "Oltre", "Gioco", "Piano", "Amico", "Reale",
-  "Nuvola", "Strada", "Bicicletta", "Dardo", "Tempo", "Lento", "Esame", "Amore", "Orso", "Telefono", "Cane", "Montagna",
-  "Vento", "Pista", "Tigre", "Curiosità", "Attore", "Bagliore", "Ciclo", "Città", "Erano", "Hotel", "Mento", "Rango", "Tenda",
-  "Nuova", "Canto", "Notte", "Albero", "Vasto", "Festa", "Danza", "Brava", "Cena", "Giorno", "Libro"
+  Ecco le parole senza maiuscole:
+
+"quota", "bravo", "fiore", "campo", "mare", "arido", "isola", "sfera", "burro", "gatto", "ladro", "urgen", "viaggio",
+"indio", "sogno", "dente", "zaino", "pioggia", "libertà", "oltre", "gioco", "piano", "amico", "reale", "nuvola", "strada",
+"bicicletta", "dardo", "tempo", "lento", "esame", "amore", "orso", "telefono", "cane", "montagna", "vento", "pista", "tigre",
+"curiosità", "attore", "bagliore", "ciclo", "città", "erano", "hotel", "mento", "rango", "tenda", "nuova", "canto", "notte",
+"albero", "vasto", "festa", "danza", "brava", "cena", "giorno", "libro".
+
+Vuoi che faccia ulteriori modifiche?
+
 ];
 
 let currentWords = [];
